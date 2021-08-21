@@ -6,16 +6,12 @@
 
     "accounts": [
       {
-        "username": "test",
-        "password": "pass"
-      },
-      {
-        "username": "another_account@gmail.com",
-        "password": "p4ssw0rd"
+        "username": "s3786116@student.rmit.edu.au",
+        "password": ""
       }
     ],
 
-    "format": "*{username}*: {message}",
+    "format": "{username}: {message}",
     "sourceFormat": {
       "discord": "(Discord)",
       "messenger": "(Messenger: {name})"
@@ -32,15 +28,15 @@
     "showPollDetails": true
   },
   "discord": {
-    "token": "",
+    "token": "MTkxNDczNDIxMDMxMzA5MzEy.V10hhA.yy0VpkhJaKS30AGwzAYlRydKM6",
 
-    "guild": "",
+    "guild": "745239915855609927",
     "category": "",
     "renameChannels": true,
-    "showFullNames": false,
-    "createChannels": false,
+    "showFullNames": true,
+    "createChannels": true,
 
-    "massMentions": false,
+    "massMentions": true,
     "userMentions": true,
     "roleMentions": true,
 
